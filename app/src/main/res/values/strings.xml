@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">LabExam03</string>
+    <string name="add_task">Add Task</string>
+    <string name="start_timer">Start Timer</string>
+    <string name="navigate_to_stopwatch">Navigate to Stopwatch</string>
+    <string name="settings">Settings</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="back_to_home">back to home</string>
+    <string name="toggle_theme">Toggle Theme</string>
+    <string name="task_master">TASK MASTER</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
+    <string name="back_to_main_activity">Back to Main Activity</string>
+    <string name="task_title">Task Title</string>
+    <string name="task_description">Task Description</string>
+    <string name="pick_date_and_time">Pick Date and Time</string>
+    <string name="date_and_time">Date and Time</string>
+    <string name="set_date_and_time">Set Date and Time</string>
+    <string name="edit">edit</string>
+    <string name="delete">delete</string>
+    <string name="set_timer">Set Timer</string>
+    <string name="no_tasks">No Tasks</string>
+    <string name="you_have_no_pending_tasks">You have no pending tasks.</string>
+</resources>

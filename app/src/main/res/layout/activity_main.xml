@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="643dp"
+        android:contentDescription="@string/add_task"
+        app:backgroundTint="@color/orangr"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <Button
+        android:id="@+id/buttonStartTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="45dp"
+        android:backgroundTint="@color/darkOrangr"
+        android:text="@string/start_timer" />
+
+    <ImageButton
+        android:id="@+id/buttonNavigateToStopwatch"
+        android:layout_width="69dp"
+        android:layout_height="86dp"
+        android:layout_above="@+id/buttonStartTimer"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="-104dp"
+        android:background="?attr/selectableItemBackground"
+        android:contentDescription="@string/navigate_to_stopwatch"
+        android:src="@drawable/timer" />
+
+    <ImageButton
+        android:id="@+id/buttonSettings"
+        android:layout_width="101dp"
+        android:layout_height="88dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="-8dp"
+        android:layout_marginBottom="16dp"
+        android:background="?attr/selectableItemBackground"
+        android:contentDescription="@string/settings"
+        android:src="@drawable/menu_manager" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewTasks"
+        android:layout_width="394dp"
+        android:layout_height="523dp"
+        android:layout_above="@+id/buttonStartTimer"
+        android:layout_below="@+id/buttonSettings"
+        android:layout_marginTop="-11dp"
+        android:layout_marginBottom="6dp" />
+</RelativeLayout>
